@@ -3,7 +3,7 @@ main {
 }
 
 nav {
-    background-color: rgb(178, 114, 194);
+    background-color: rgb(200, 155, 221);
     display: block;
     padding: 20px;
 }
@@ -15,7 +15,7 @@ p {
 aside {
     width: 500px;
     margin: 1em;
-    border: 1px solid rgb (0 0 0 / 0.2);
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1em;
     background-color: #eee;
     color: #333;
@@ -32,8 +32,7 @@ main img {
     height: auto;
 }
 
-
-footer{
+footer {
     margin-top: 15px;
     border-top: 1px solid black;
     text-align: center;
