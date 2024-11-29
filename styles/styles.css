@@ -1,0 +1,40 @@
+main {
+    max-width: 840px;
+}
+
+nav {
+    background-color: rgb(178, 114, 194);
+    display: block;
+    padding: 20px;
+}
+
+p {
+    padding: 0;
+}
+
+aside {
+    width: 500px;
+    margin: 1em;
+    border: 1px solid rgb (0 0 0 / 0.2);
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 500px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid black;
+    text-align: center;
+}
