@@ -1,0 +1,99 @@
+:root {
+    --primary-color: #55aee1;
+    --secondary-color: #eeb96f;
+    --accent1-color: #f07a58;
+    --accent2-color: #0b4f6c;
+    --heading-font: 'Montserrat', sans-serif;
+    --text-font: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--text-font);
+    color: white;
+    background-color: var(--accent1-color);
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--heading-font);
+    font-weight: 100;
+    font-size: 3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--primary-color);
+    padding: 15px;
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+.hero article img {
+    margin-left: 15px;
+    max-width: 100px;
+}
+
+.hero article p {
+    color: var(--primary-color);
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-family: var(--heading-font);
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
